@@ -1,4 +1,4 @@
-var randomNumber1 = Math.random()*14+1;     
+var randomNumber1 = Math.random()*15+1;     
 randomNumber1= Math.floor(randomNumber1); 
 var RandomImage1 = randomNumber1 +".jpg";
 document.querySelector(".ani").setAttribute("src",RandomImage1);
@@ -44,6 +44,9 @@ if(randomNumber1==13){
 }
 if(randomNumber1==14){
     document.querySelector(".name").textContent="you are a sheep";
+}
+if(randomNumber1==15){
+    document.querySelector(".name").textContent="you are a pig";
 }
 
 
